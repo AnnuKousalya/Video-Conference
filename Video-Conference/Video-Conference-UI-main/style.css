@@ -1,0 +1,104 @@
+/*Initialize page*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Vollkorn', 'Lobster', serif, 'Roboto', Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+.fi{
+  background-color: #2b81e4;
+  height: 350px;
+}
+
+.se{
+  background-color: #31e42b;
+  height: 350px;
+}
+
+.th{
+  background-color: #ffbf00;
+  height: 350px;
+}
+
+.fo{
+  background-color: black;
+  height: 350px;
+}
+/*Basically converting 1 rem to 10px insteead of 16, eaasier to track*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+  background-image: url('/download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+/*Basically converting 1 rem to 10px insteead of 16, eaasier to track*/
+html{
+    font-size: 62.5%;
+    background-image: url('/download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Setting Colors*/
+:root{
+    --primary-color-1: #2b81e4;     /*Blue*/
+    --primary-color-2: #e42b2b;     /*Red*/
+    --primary-color-3: #31e42b;     /*Green*/
+    --white-color: #ffffff;         /*White*/
+    --grey-color:  #777777;         /*Grey*/
+    --amber-color: #ffbf00;         /*Amber*/
+    --primary-color: #2b81e4;
+  --secondary-color: #eee;
+  --light-grey-color: #777;
+}
+
+/*For Centering the elements perfectly each time*/
+/*Using a flex box for the creation of most items*/
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+  display: inline-block;
+  padding: 10px;
+  flex: 50%;
+  margin: 2em, 2em;
+
+
+}
+section {
+  width: 100% ;
+  border: 1px solid #2d2d2d;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

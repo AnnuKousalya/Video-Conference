@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;1,400;1,500;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navStyle.css">
+
+  <title>Video Conference</title>
+</head>
+
+<body>
+  
+  <div id="viewport">
+    <div id="sidebar">
+      <header>
+        <a href="#" style="font-weight: bolder;">Video Conference</a>
+      </header>
+      <ul class="nav">
+        <li>
+          <a href="main.html">
+            <i class="zmdi zmdi-view-dashboard" style="font-weight: bolder;">home</i> 
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="zmdi zmdi-link" style="font-weight: bolder;">video call</i> 
+          </a>
+        </li>
+        <li>
+          <a href="responsive-calendar-0.9\responsive-calendar\0.9\example\index.html">
+            <i class="zmdi zmdi-widgets" style="font-weight: bolder;">calender</i> 
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="zmdi zmdi-calendar" style="font-weight: bolder;">messenger</i> 
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="zmdi zmdi-info-outline" style="font-weight: bolder;">About</i> 
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="zmdi zmdi-comment-more" style="font-weight: bolder;">contact us</i> 
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="row">
+      <div class="fo col-sm-12">
+        <iframe width=100% height=100%  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+<br><br><br><br><br>
+    <section id="chat-app">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-6 col-md-6 mb-4">
+    				Your ID: Annu Kousalya <h1 id="peer-id" data-toggle="tooltip" data-placement="top" title="Click to copy peer ID"></h1>
+                    <a href="#getUserNameModal" data-toggle="modal">Change Username</a>
+    			</div>
+    			<div class="col-lg-6 col-md-6 mb-5 hide">
+    				<div class="form-inline">
+						<div class="form-group mr-sm-3">
+							<label for="inputPeerUserId" class="sr-only">Password</label>
+							<input type="text" class="form-control" id="inputPeerUserId" placeholder="Enter your friends ID">
+						</div>
+						<button type="button" class="btn btn-outline-primary" id='connect-btn'>Connect</button>
+					</div>
+    			</div>
+              </div>
+    		</div>
+    	</div>
+    </section>
+
+    <div class="modal" id="getUserNameModal" tabindex="-1" role="dialog" data-keyboard="false" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop='static'>
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Enter your Name</h5>
+              </div>
+              <div class="modal-body">
+                  <div class="form-group">
+                      <input type="text" class="form-control" id="user-name">
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" data-dismiss="modal" class="btn btn-primary username-done">Done</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <br><br><br><br><br><br>
+      <section class="bb">
+
+        <a class="btn btn-danger btn-lg" href="main.html" role="button">Leave Meeting</a>
+
+
+      </section>
+
+  </div>
+
+  <section>
+
+    <container>
+
+<br><br><br><br><br><br>
+
+    </container>
+
+  </section>
+
+  </div>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.1/umd/react.production.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.6/index.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  
+  <script src="peer.js"></script>
+  <script src="chat.js"></script>
+  <script src="peer-client.js"></script>
+</body>
+</html>
